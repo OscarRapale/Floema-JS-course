@@ -2,8 +2,14 @@
 @import './utils/functions';
 @import './utils/mixins';
 @import './utils/vendors';
+@import './utils/responsive';
 
+@import './shared/descriptions';
+@import './shared/titles';
+
+@import './base/fonts';
 @import './base/reset';
+@import './base/base';
 
 @import './pages/about/about';
 @import './pages/about/content';
@@ -15,3 +21,5 @@
 @import './pages/home/home';
 
 @import './pages/details/details';
+
+@import './components/preloader';
